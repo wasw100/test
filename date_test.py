@@ -26,9 +26,21 @@ def get_day_start_time(timestamp, tz=pytz.timezone('Etc/GMT+12')):
     return calendar.timegm(d2.timetuple()) - 12*3600
 
 
-if __name__ == '__main__':
+def show_the_last_10_day():
+    tz = pytz.timezone('Etc/GMT-8')
+    d = datetime.datetime.now(tz=tz)
+    for i in range(10):
+        d += datetime.timedelta(days=1)
+        print d
+        print d.strftime('%Y%m%d')
+
+def test1():
     tz = pytz.timezone('Etc/GMT-12')
     # t1 = get_day_start_time(time.time(), tz)
     t1 = get_earliest_time(2014, 5, 20)
     t2 = get_today_by_timezone(time.time(), tz)
     print t1, t2, (t2-t1)/3600
+
+
+if __name__ == '__main__':
+    show_the_last_10_day()
