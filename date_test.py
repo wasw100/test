@@ -41,6 +41,8 @@ def test1():
     t2 = get_today_by_timezone(time.time(), tz)
     print t1, t2, (t2-t1)/3600
 
+#go home
+
 
 if __name__ == '__main__':
     show_the_last_10_day()
