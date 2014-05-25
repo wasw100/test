@@ -6,6 +6,7 @@ https://docs.python.org/2/howto/logging-cookbook.html
 import logging
 
 # create logger with 'spam_application'
+logger2 = logging.getLogger('logging_test.log2')
 logger = logging.getLogger('logging_test')
 logger.setLevel(logging.DEBUG)
 # create file handler which logs even debug messages
@@ -31,3 +32,4 @@ logger.info('calling auxiliary_module.Auxiliary.do_something')
 logger.info('finished auxiliary_module.Auxiliary.do_something')
 logger.info('calling auxiliary_module.some_function()')
 logger.info('done with auxiliary_module.some_function()')
+logger2.info('logger2 info')
