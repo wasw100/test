@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 https://docs.python.org/2/library/urlparse.html
+can see https://github.com/wasw100/z7z8/blob/master/url_utils.py
 """
 
 import urlparse
