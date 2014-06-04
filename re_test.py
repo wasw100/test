@@ -31,10 +31,26 @@ def test():
 
 
 def test2():
+    """完全匹配"""
+    m1 = re.match(r'\d+$', '123')
+    if m1:
+        print 'm1', m1.group()
+    else:
+        print 'm1 is None'
+
+    m2 = re.search(r'^\d+$', '123')
+    if m2:
+        print 'm2', m2.group()
+    else:
+        print 'm2 is None'
+
+
+def test3():
     pattern = re.compile(r'hello')
     match = pattern.match('hello world!')
     if match:
         print match.group()
 
 if __name__ == '__main__':
-    test()
+    # test()
+    test2()
