@@ -24,8 +24,18 @@ html = """
 """
 
 
+def re_test():
+    """parse use re"""
+    pass
+
+
+def pyquery_test():
+    """parse use pyquery"""
+    pass
+
+
 def xpath_test():
-    """parse html use xpath"""
+    """parse use xpath"""
     dom = lxml.html.fromstring(html)
     hrefs = dom.xpath('//*[@id="content"]/ul/li[*]/a')
     print len(hrefs)
