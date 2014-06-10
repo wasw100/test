@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import glob
 import os.path
 
 def test():
@@ -23,6 +24,15 @@ def os_walk_test():
                 continue
             print filename
 
+
+def glob_test():
+    """路径下所有的py文件"""
+    path = os.path.dirname(__file__)
+    s = os.path.join(path, '*.py')
+    print glob.glob(s)
+
+
 if __name__ == '__main__':
     # test()
-    os_walk_test()
+    # os_walk_test()
+    glob_test()
