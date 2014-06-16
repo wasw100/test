@@ -7,6 +7,7 @@
 """
 
 import lxml.html
+import re
 
 html = """
 <!doctype html>
@@ -24,9 +25,10 @@ html = """
 """
 
 
+HREF_PATERN = re.compile('href="(http://test.com/post/(\d+))"')
 def re_test():
     """parse use re"""
-    pass
+    print HREF_PATERN.findall(html)
 
 
 def pyquery_test():
@@ -45,7 +47,8 @@ def xpath_test():
 
 
 if __name__ == '__main__':
-    xpath_test()
+    re_test()
+    # xpath_test()
 
 
 
