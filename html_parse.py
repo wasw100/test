@@ -4,10 +4,13 @@
 1.正则
 2.pyquery
 3.xpath
+xml.etree.ElementTree — The ElementTree XML API
+https://docs.python.org/2/library/xml.etree.elementtree.html
 """
 
 import lxml.html
 import re
+from pyquery import PyQuery as pq
 
 html = """
 <!doctype html>
@@ -33,7 +36,10 @@ def re_test():
 
 def pyquery_test():
     """parse use pyquery"""
-    pass
+    d = pq(html)
+    for ele in d('li a'):
+        print ele.attrib
+        print ele.text
 
 
 def xpath_test():
@@ -47,7 +53,8 @@ def xpath_test():
 
 
 if __name__ == '__main__':
-    re_test()
+    # re_test()
+    pyquery_test()
     # xpath_test()
 
 
