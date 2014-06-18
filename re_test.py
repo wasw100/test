@@ -51,6 +51,15 @@ def test3():
     if match:
         print match.group()
 
+def find_all_test():
+    s = 'a123b456c'
+    ds = re.findall('\d+?', s)
+    print ds
+    ds2 = re.findall('\d+', s)
+    print ds2
+
+
 if __name__ == '__main__':
     # test()
-    test2()
+    # test2()
+    find_all_test()
