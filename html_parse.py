@@ -18,12 +18,13 @@ html = """
 <div id="content">
 <ul class="nav">
 <li><a href="http://test.com/post/1" target="_blank">1</a></li>
-<li><a href="http://test.com/post/2" target="_blank">2</a></li>
+<li><a flag="1" href="http://test.com/post/2" target="_blank">2</a></li>
 <li><a href="http://test.com/post/3" target="_blank">3</a></li>
-<li><a href="http://test.com/post/4" target="_blank">4</a></li>
+<li><a flag="1" href="http://test.com/post/4" target="_blank">4</a></li>
 <li><a href="http://test.com/post/5" target="_blank">5</a></li>
 <ul>
 <div>
+<div flag="1">div</div>
 </body><html>
 """
 
@@ -45,17 +46,26 @@ def pyquery_test():
 def xpath_test():
     """parse use xpath"""
     dom = lxml.html.fromstring(html)
-    hrefs = dom.xpath('//*[@id="content"]/ul/li[*]/a')
-    print len(hrefs)
-    for href in hrefs:
-        print href.attrib
-        print href.text
+    eles = dom.xpath('//*[@id="content"]/ul/li[*]/a')
+    print len(eles)
+    for ele in eles:
+        print ele.attrib
+        print ele.text
+
+
+def xpath_attr_test():
+    dom = lxml.html.fromstring(html)
+    eles = dom.xpath('//a[@flag="1"]')
+    for ele in eles:
+        print ele.attrib
+        print ele.text
 
 
 if __name__ == '__main__':
     # re_test()
-    pyquery_test()
+    # pyquery_test()
     # xpath_test()
+    xpath_attr_test()
 
 
 
