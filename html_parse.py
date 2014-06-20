@@ -61,11 +61,18 @@ def xpath_attr_test():
         print ele.text
 
 
+def pyquery_attr_test():
+    d = pq(html)
+    for ele in d('a[flag="1"]'):
+        print ele.attrib
+        print ele.text
+
+
 if __name__ == '__main__':
     # re_test()
     # pyquery_test()
     # xpath_test()
-    xpath_attr_test()
-
+    # xpath_attr_test()
+    pyquery_attr_test()
 
 
