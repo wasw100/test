@@ -7,6 +7,11 @@ def md5_test():
     print hashlib.md5(s).hexdigest().lower()
 
 
-if __name__ == '__main__':
-    md5_test()
+def sha256_test():
+    s = '123'
+    print hashlib.sha256(s).hexdigest()
 
+
+if __name__ == '__main__':
+    # md5_test()
+    sha256_test()
