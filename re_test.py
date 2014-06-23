@@ -59,7 +59,16 @@ def find_all_test():
     print ds2
 
 
+def re_sub_test():
+    def replace(m):
+        return '%s"%s":' % m.groups()
+    s = "{a:1,b:2}"
+    s2 = re.sub(r'([{,])(\w+):', replace, s)
+    print s2
+
+
 if __name__ == '__main__':
     # test()
     # test2()
-    find_all_test()
+    # find_all_test()
+    re_sub_test()
