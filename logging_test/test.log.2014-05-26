@@ -1,0 +1,304 @@
+2014-05-26 22:43:35,065 - __main__ - DEBUG - main debug
+2014-05-26 22:43:35,065 - __main__ - INFO - main info
+2014-05-26 22:43:35,065 - __main__ - WARNING - main warn
+2014-05-26 22:43:35,066 - __main__ - ERROR - main error
+2014-05-26 22:43:35,066 - operate.haha.test2 - ERROR - test2 logger name, operate.haha.test2
+2014-05-26 22:43:35,066 - operate.haha.test2 - ERROR - test2 logger name, operate.haha.test2
+2014-05-26 22:43:35,066 - operate.haha.test2 - DEBUG - test2 debug
+2014-05-26 22:43:35,066 - operate.haha.test2 - DEBUG - test2 debug
+2014-05-26 22:43:35,066 - operate.haha.test2 - INFO - test2 info
+2014-05-26 22:43:35,066 - operate.haha.test2 - INFO - test2 info
+2014-05-26 22:43:35,066 - operate.haha.test2 - WARNING - test2 info
+2014-05-26 22:43:35,066 - operate.haha.test2 - WARNING - test2 info
+2014-05-26 22:43:35,066 - operate.haha.test2 - ERROR - test2 error
+2014-05-26 22:43:35,066 - operate.haha.test2 - ERROR - test2 error
+2014-05-26 22:44:14,917 - __main__ - DEBUG - main debug
+2014-05-26 22:44:14,917 - __main__ - INFO - main info
+2014-05-26 22:44:14,917 - __main__ - WARNING - main warn
+2014-05-26 22:44:14,917 - __main__ - ERROR - main error
+2014-05-26 22:44:33,301 - __main__ - DEBUG - main debug
+2014-05-26 22:44:33,301 - __main__ - INFO - main info
+2014-05-26 22:44:33,301 - __main__ - WARNING - main warn
+2014-05-26 22:44:33,301 - __main__ - ERROR - main error
+2014-05-26 22:44:48,636 - __main__ - DEBUG - main debug
+2014-05-26 22:44:48,636 - __main__ - INFO - main info
+2014-05-26 22:44:48,636 - __main__ - WARNING - main warn
+2014-05-26 22:44:48,636 - __main__ - ERROR - main error
+2014-05-26 22:44:48,637 - operate - ERROR - operate __name__ is operate
+2014-05-26 22:44:48,637 - operate - ERROR - operate __name__ is operate
+2014-05-26 22:44:48,637 - operate - DEBUG - operate debug
+2014-05-26 22:44:48,637 - operate - DEBUG - operate debug
+2014-05-26 22:44:48,637 - operate - INFO - operate info
+2014-05-26 22:44:48,637 - operate - INFO - operate info
+2014-05-26 22:44:48,637 - operate - WARNING - operate warn
+2014-05-26 22:44:48,637 - operate - WARNING - operate warn
+2014-05-26 22:44:48,637 - operate - ERROR - operate error
+2014-05-26 22:44:48,637 - operate - ERROR - operate error
+2014-05-26 22:44:48,637 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:44:48,637 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:44:48,637 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:44:48,637 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:44:48,637 - operate.test1 - INFO - test1 info
+2014-05-26 22:44:48,637 - operate.test1 - INFO - test1 info
+2014-05-26 22:44:48,637 - operate.test1 - WARNING - test1 info
+2014-05-26 22:44:48,637 - operate.test1 - WARNING - test1 info
+2014-05-26 22:44:48,638 - operate.test1 - ERROR - test1 error
+2014-05-26 22:44:48,638 - operate.test1 - ERROR - test1 error
+2014-05-26 22:44:48,638 - operate.haha.test2 - ERROR - test2 logger name, operate.haha.test2
+2014-05-26 22:44:48,638 - operate.haha.test2 - ERROR - test2 logger name, operate.haha.test2
+2014-05-26 22:44:48,638 - operate.haha.test2 - DEBUG - test2 debug
+2014-05-26 22:44:48,638 - operate.haha.test2 - DEBUG - test2 debug
+2014-05-26 22:44:48,638 - operate.haha.test2 - INFO - test2 info
+2014-05-26 22:44:48,638 - operate.haha.test2 - INFO - test2 info
+2014-05-26 22:44:48,638 - operate.haha.test2 - WARNING - test2 info
+2014-05-26 22:44:48,638 - operate.haha.test2 - WARNING - test2 info
+2014-05-26 22:44:48,638 - operate.haha.test2 - ERROR - test2 error
+2014-05-26 22:44:48,638 - operate.haha.test2 - ERROR - test2 error
+2014-05-26 22:45:05,243 - __main__ - DEBUG - main debug
+2014-05-26 22:45:05,243 - __main__ - INFO - main info
+2014-05-26 22:45:05,244 - __main__ - WARNING - main warn
+2014-05-26 22:45:05,244 - __main__ - ERROR - main error
+2014-05-26 22:45:07,847 - __main__ - DEBUG - main debug
+2014-05-26 22:45:07,847 - __main__ - INFO - main info
+2014-05-26 22:45:07,848 - __main__ - WARNING - main warn
+2014-05-26 22:45:07,848 - __main__ - ERROR - main error
+2014-05-26 22:45:07,848 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:45:07,848 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:45:07,848 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:45:07,848 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:45:07,848 - operate.test1 - INFO - test1 info
+2014-05-26 22:45:07,848 - operate.test1 - INFO - test1 info
+2014-05-26 22:45:07,848 - operate.test1 - WARNING - test1 info
+2014-05-26 22:45:07,848 - operate.test1 - WARNING - test1 info
+2014-05-26 22:45:07,848 - operate.test1 - ERROR - test1 error
+2014-05-26 22:45:07,848 - operate.test1 - ERROR - test1 error
+2014-05-26 22:45:27,762 - __main__ - DEBUG - main debug
+2014-05-26 22:45:27,762 - __main__ - INFO - main info
+2014-05-26 22:45:27,762 - __main__ - WARNING - main warn
+2014-05-26 22:45:27,762 - __main__ - ERROR - main error
+2014-05-26 22:45:27,763 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:45:27,763 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:45:27,763 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:45:27,763 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:45:27,763 - operate.test1 - INFO - test1 info
+2014-05-26 22:45:27,763 - operate.test1 - INFO - test1 info
+2014-05-26 22:45:27,763 - operate.test1 - WARNING - test1 info
+2014-05-26 22:45:27,763 - operate.test1 - WARNING - test1 info
+2014-05-26 22:45:27,763 - operate.test1 - ERROR - test1 error
+2014-05-26 22:45:27,763 - operate.test1 - ERROR - test1 error
+2014-05-26 22:46:04,003 - __main__ - DEBUG - main debug
+2014-05-26 22:46:04,003 - __main__ - INFO - main info
+2014-05-26 22:46:04,003 - __main__ - WARNING - main warn
+2014-05-26 22:46:04,003 - __main__ - ERROR - main error
+2014-05-26 22:46:04,004 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:46:04,004 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:46:04,004 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:46:04,004 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:46:04,004 - operate.test1 - INFO - test1 info
+2014-05-26 22:46:04,004 - operate.test1 - INFO - test1 info
+2014-05-26 22:46:04,004 - operate.test1 - WARNING - test1 info
+2014-05-26 22:46:04,004 - operate.test1 - WARNING - test1 info
+2014-05-26 22:46:04,004 - operate.test1 - ERROR - test1 error
+2014-05-26 22:46:04,004 - operate.test1 - ERROR - test1 error
+2014-05-26 22:46:46,751 - __main__ - DEBUG - main debug
+2014-05-26 22:46:46,751 - __main__ - INFO - main info
+2014-05-26 22:46:46,751 - __main__ - WARNING - main warn
+2014-05-26 22:46:46,751 - __main__ - ERROR - main error
+2014-05-26 22:46:46,751 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:46:46,751 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:46:46,751 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:46:46,751 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:46:46,752 - operate.test1 - INFO - test1 info
+2014-05-26 22:46:46,752 - operate.test1 - INFO - test1 info
+2014-05-26 22:46:46,752 - operate.test1 - WARNING - test1 info
+2014-05-26 22:46:46,752 - operate.test1 - WARNING - test1 info
+2014-05-26 22:46:46,752 - operate.test1 - ERROR - test1 error
+2014-05-26 22:46:46,752 - operate.test1 - ERROR - test1 error
+2014-05-26 22:47:52,061 - __main__ - DEBUG - main debug
+2014-05-26 22:47:52,061 - __main__ - INFO - main info
+2014-05-26 22:47:52,061 - __main__ - WARNING - main warn
+2014-05-26 22:47:52,061 - __main__ - ERROR - main error
+2014-05-26 22:47:52,061 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:47:52,061 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:47:52,061 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:47:52,061 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:47:52,061 - operate.test1 - INFO - test1 info
+2014-05-26 22:47:52,061 - operate.test1 - INFO - test1 info
+2014-05-26 22:47:52,061 - operate.test1 - WARNING - test1 info
+2014-05-26 22:47:52,061 - operate.test1 - WARNING - test1 info
+2014-05-26 22:47:52,061 - operate.test1 - ERROR - test1 error
+2014-05-26 22:47:52,061 - operate.test1 - ERROR - test1 error
+2014-05-26 22:48:00,246 - __main__ - DEBUG - main debug
+2014-05-26 22:48:00,246 - __main__ - INFO - main info
+2014-05-26 22:48:00,246 - __main__ - WARNING - main warn
+2014-05-26 22:48:00,246 - __main__ - ERROR - main error
+2014-05-26 22:48:04,874 - __main__ - DEBUG - main debug
+2014-05-26 22:48:04,874 - __main__ - INFO - main info
+2014-05-26 22:48:04,874 - __main__ - WARNING - main warn
+2014-05-26 22:48:04,875 - __main__ - ERROR - main error
+2014-05-26 22:48:04,875 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:48:04,875 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:48:04,875 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:48:04,875 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:48:04,875 - operate.test1 - INFO - test1 info
+2014-05-26 22:48:04,875 - operate.test1 - INFO - test1 info
+2014-05-26 22:48:04,875 - operate.test1 - WARNING - test1 info
+2014-05-26 22:48:04,875 - operate.test1 - WARNING - test1 info
+2014-05-26 22:48:04,875 - operate.test1 - ERROR - test1 error
+2014-05-26 22:48:04,875 - operate.test1 - ERROR - test1 error
+2014-05-26 22:49:07,064 - __main__ - DEBUG - main debug
+2014-05-26 22:49:07,064 - __main__ - INFO - main info
+2014-05-26 22:49:07,064 - __main__ - WARNING - main warn
+2014-05-26 22:49:07,065 - __main__ - ERROR - main error
+2014-05-26 22:49:07,065 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:49:07,065 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:49:07,065 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:49:07,065 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:49:07,065 - operate.test1 - INFO - test1 info
+2014-05-26 22:49:07,065 - operate.test1 - INFO - test1 info
+2014-05-26 22:49:07,065 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:49:07,065 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:49:07,065 - operate.test1 - ERROR - test1 error
+2014-05-26 22:49:07,065 - operate.test1 - ERROR - test1 error
+2014-05-26 22:52:12,661 - __main__ - DEBUG - main debug
+2014-05-26 22:52:12,661 - __main__ - INFO - main info
+2014-05-26 22:52:12,661 - __main__ - WARNING - main warn
+2014-05-26 22:52:12,661 - __main__ - ERROR - main error
+2014-05-26 22:52:12,661 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:52:12,661 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:52:12,661 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:52:12,661 - operate.test1 - DEBUG - test1 debug
+2014-05-26 22:52:12,661 - operate.test1 - INFO - test1 info
+2014-05-26 22:52:12,661 - operate.test1 - INFO - test1 info
+2014-05-26 22:52:12,662 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:52:12,662 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:52:12,662 - operate.test1 - ERROR - test1 error
+2014-05-26 22:52:12,662 - operate.test1 - ERROR - test1 error
+2014-05-26 22:52:53,544 - __main__ - DEBUG - main debug
+2014-05-26 22:52:53,545 - __main__ - INFO - main info
+2014-05-26 22:52:53,545 - __main__ - WARNING - main warn
+2014-05-26 22:52:53,545 - __main__ - ERROR - main error
+2014-05-26 22:53:44,833 - __main__ - WARNING - main warn
+2014-05-26 22:53:44,833 - __main__ - ERROR - main error
+2014-05-26 22:53:57,677 - __main__ - WARNING - main warn
+2014-05-26 22:53:57,677 - __main__ - ERROR - main error
+2014-05-26 22:53:57,677 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:53:57,677 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:53:57,677 - operate.test1 - INFO - test1 info
+2014-05-26 22:53:57,677 - operate.test1 - INFO - test1 info
+2014-05-26 22:53:57,677 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:53:57,677 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:53:57,678 - operate.test1 - ERROR - test1 error
+2014-05-26 22:53:57,678 - operate.test1 - ERROR - test1 error
+2014-05-26 22:54:25,742 - __main__ - WARNING - main warn
+2014-05-26 22:54:25,743 - __main__ - ERROR - main error
+2014-05-26 22:54:25,743 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:54:25,743 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:54:25,743 - operate.test1 - INFO - test1 info
+2014-05-26 22:54:25,743 - operate.test1 - INFO - test1 info
+2014-05-26 22:54:25,743 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:54:25,743 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:54:25,743 - operate.test1 - ERROR - test1 error
+2014-05-26 22:54:25,743 - operate.test1 - ERROR - test1 error
+2014-05-26 22:54:31,917 - __main__ - WARNING - main warn
+2014-05-26 22:54:31,917 - __main__ - ERROR - main error
+2014-05-26 22:54:31,917 - operate - ERROR - operate __name__ is operate
+2014-05-26 22:54:31,917 - operate - ERROR - operate __name__ is operate
+2014-05-26 22:54:31,918 - operate - INFO - operate info
+2014-05-26 22:54:31,918 - operate - INFO - operate info
+2014-05-26 22:54:31,918 - operate - WARNING - operate warn
+2014-05-26 22:54:31,918 - operate - WARNING - operate warn
+2014-05-26 22:54:31,918 - operate - ERROR - operate error
+2014-05-26 22:54:31,918 - operate - ERROR - operate error
+2014-05-26 22:54:31,918 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:54:31,918 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:54:31,918 - operate.test1 - INFO - test1 info
+2014-05-26 22:54:31,918 - operate.test1 - INFO - test1 info
+2014-05-26 22:54:31,919 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:54:31,919 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:54:31,919 - operate.test1 - ERROR - test1 error
+2014-05-26 22:54:31,919 - operate.test1 - ERROR - test1 error
+2014-05-26 22:54:31,919 - operate.haha.test2 - ERROR - test2 logger name, operate.haha.test2
+2014-05-26 22:54:31,919 - operate.haha.test2 - ERROR - test2 logger name, operate.haha.test2
+2014-05-26 22:54:31,919 - operate.haha.test2 - INFO - test2 info
+2014-05-26 22:54:31,919 - operate.haha.test2 - INFO - test2 info
+2014-05-26 22:54:31,919 - operate.haha.test2 - WARNING - test2 info
+2014-05-26 22:54:31,919 - operate.haha.test2 - WARNING - test2 info
+2014-05-26 22:54:31,919 - operate.haha.test2 - ERROR - test2 error
+2014-05-26 22:54:31,919 - operate.haha.test2 - ERROR - test2 error
+2014-05-26 22:55:10,868 - __main__ - WARNING - main warn
+2014-05-26 22:55:10,868 - __main__ - ERROR - main error
+2014-05-26 22:55:10,868 - operate - ERROR - operate __name__ is operate
+2014-05-26 22:55:10,868 - operate - ERROR - operate __name__ is operate
+2014-05-26 22:55:10,869 - operate - INFO - operate info
+2014-05-26 22:55:10,869 - operate - INFO - operate info
+2014-05-26 22:55:10,869 - operate - WARNING - operate warn
+2014-05-26 22:55:10,869 - operate - WARNING - operate warn
+2014-05-26 22:55:10,869 - operate - ERROR - operate error
+2014-05-26 22:55:10,869 - operate - ERROR - operate error
+2014-05-26 22:55:10,869 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:55:10,869 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:55:10,869 - operate.test1 - INFO - test1 info
+2014-05-26 22:55:10,869 - operate.test1 - INFO - test1 info
+2014-05-26 22:55:10,869 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:55:10,869 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:55:10,869 - operate.test1 - ERROR - test1 error
+2014-05-26 22:55:10,869 - operate.test1 - ERROR - test1 error
+2014-05-26 22:55:10,869 - operate.haha.test2 - ERROR - test2 logger name, operate.haha.test2
+2014-05-26 22:55:10,869 - operate.haha.test2 - ERROR - test2 logger name, operate.haha.test2
+2014-05-26 22:55:10,870 - operate.haha.test2 - INFO - test2 info
+2014-05-26 22:55:10,870 - operate.haha.test2 - INFO - test2 info
+2014-05-26 22:55:10,870 - operate.haha.test2 - WARNING - test2 info
+2014-05-26 22:55:10,870 - operate.haha.test2 - WARNING - test2 info
+2014-05-26 22:55:10,870 - operate.haha.test2 - ERROR - test2 error
+2014-05-26 22:55:10,870 - operate.haha.test2 - ERROR - test2 error
+2014-05-26 22:56:57,968 - __main__ - WARNING - main warn
+2014-05-26 22:56:57,968 - __main__ - ERROR - main error
+2014-05-26 22:57:01,166 - __main__ - WARNING - main warn
+2014-05-26 22:57:01,166 - __main__ - ERROR - main error
+2014-05-26 22:57:26,367 - __main__ - WARNING - main warn
+2014-05-26 22:57:26,368 - __main__ - ERROR - main error
+2014-05-26 22:57:35,839 - __main__ - WARNING - main warn
+2014-05-26 22:57:35,839 - __main__ - ERROR - main error
+2014-05-26 22:57:47,464 - __main__ - WARNING - main warn
+2014-05-26 22:57:47,465 - __main__ - ERROR - main error
+2014-05-26 22:57:48,394 - __main__ - WARNING - main warn
+2014-05-26 22:57:48,394 - __main__ - ERROR - main error
+2014-05-26 22:57:49,220 - __main__ - WARNING - main warn
+2014-05-26 22:57:49,220 - __main__ - ERROR - main error
+2014-05-26 22:58:02,338 - __main__ - WARNING - main warn
+2014-05-26 22:58:02,338 - __main__ - ERROR - main error
+2014-05-26 22:58:02,338 - operate - ERROR - operate __name__ is operate
+2014-05-26 22:58:02,338 - operate - ERROR - operate __name__ is operate
+2014-05-26 22:58:02,338 - operate - INFO - operate info
+2014-05-26 22:58:02,338 - operate - INFO - operate info
+2014-05-26 22:58:02,339 - operate - WARNING - operate warn
+2014-05-26 22:58:02,339 - operate - WARNING - operate warn
+2014-05-26 22:58:02,339 - operate - ERROR - operate error
+2014-05-26 22:58:02,339 - operate - ERROR - operate error
+2014-05-26 22:58:02,339 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:58:02,339 - operate.test1 - ERROR - test1 logger name, operate.test1
+2014-05-26 22:58:02,339 - operate.test1 - INFO - test1 info
+2014-05-26 22:58:02,339 - operate.test1 - INFO - test1 info
+2014-05-26 22:58:02,339 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:58:02,339 - operate.test1 - WARNING - test1 warn
+2014-05-26 22:58:02,339 - operate.test1 - ERROR - test1 error
+2014-05-26 22:58:02,339 - operate.test1 - ERROR - test1 error
+2014-05-26 22:58:02,339 - operate.haha.test2 - ERROR - test2 logger name, operate.haha.test2
+2014-05-26 22:58:02,339 - operate.haha.test2 - ERROR - test2 logger name, operate.haha.test2
+2014-05-26 22:58:02,339 - operate.haha.test2 - INFO - test2 info
+2014-05-26 22:58:02,339 - operate.haha.test2 - INFO - test2 info
+2014-05-26 22:58:02,339 - operate.haha.test2 - WARNING - test2 info
+2014-05-26 22:58:02,339 - operate.haha.test2 - WARNING - test2 info
+2014-05-26 22:58:02,340 - operate.haha.test2 - ERROR - test2 error
+2014-05-26 22:58:02,340 - operate.haha.test2 - ERROR - test2 error
+2014-05-26 23:04:01,401 - __main__ - WARNING - main warn
+2014-05-26 23:04:01,402 - __main__ - ERROR - main error
+2014-05-26 23:04:01,402 - operate.haha.test2 - ERROR - test2 logger name, operate.haha.test2
+2014-05-26 23:04:01,402 - operate.haha.test2 - ERROR - test2 logger name, operate.haha.test2
+2014-05-26 23:04:01,402 - operate.haha.test2 - INFO - test2 info
+2014-05-26 23:04:01,402 - operate.haha.test2 - INFO - test2 info
+2014-05-26 23:04:01,402 - operate.haha.test2 - WARNING - test2 info
+2014-05-26 23:04:01,402 - operate.haha.test2 - WARNING - test2 info
+2014-05-26 23:04:01,402 - operate.haha.test2 - ERROR - test2 error
+2014-05-26 23:04:01,402 - operate.haha.test2 - ERROR - test2 error
