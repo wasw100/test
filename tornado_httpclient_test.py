@@ -2,9 +2,9 @@
 import datetime
 from tornado import gen
 import tornado.ioloop
-from tornado.httpclient import AsyncHTTPClient
+from tornado.httpclient import AsyncHTTPClient, HTTPRequest
 
-AsyncHTTPClient.configure('tornado.curl_httpclient.CurlAsyncHTTPClient')
+AsyncHTTPClient.configure('tornado.curl_httpclient.CurlAsyncHTTPClient', max_clients=2)
 
 def handle_request(response):
     if response.error:
@@ -42,6 +42,16 @@ def start():
     """start ioloop"""
     tornado.ioloop.IOLoop().instance().start()
 
+
+#add test for max_clients, proxy, and calback
+def callback(response):
+    print response.time_info
+
+def test4():
+    request = HTTPRequest('http://www.163.com', proxy_host='http://127.0.0.1', proxy_port=8888)
+    for i in range(10):
+        AsyncHTTPClient().fetch(request, callback=callback)
+
 if __name__ == '__main__':
-    test3()
+    test4()
     tornado.ioloop.IOLoop().instance().start()
