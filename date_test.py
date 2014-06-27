@@ -41,8 +41,17 @@ def test1():
     t2 = get_today_by_timezone(time.time(), tz)
     print t1, t2, (t2-t1)/3600
 
-#go home
+def test2():
+    tz = pytz.timezone("America/Los_Angeles")
+    d = datetime.datetime(year=2014, month=7, day=1)
+    d2 = tz.localize(d)
+    print d
+    print d2
+    print calendar.timegm(d.utctimetuple())
+    print calendar.timegm(d2.utctimetuple())
+
 
 
 if __name__ == '__main__':
-    show_the_last_10_day()
+    # show_the_last_10_day()
+    test2()
