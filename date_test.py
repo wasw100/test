@@ -51,7 +51,41 @@ def test2():
     print calendar.timegm(d2.utctimetuple())
 
 
+def test3():
+    print pytz.country_timezones('cn')
+
+    tz_cn = pytz.timezone('Asia/Shanghai')
+    tz_utc = pytz.timezone('UTC')
+
+    now = time.time()
+    #系统时区的时间
+    d = datetime.datetime.fromtimestamp(now)
+    #d2是一个utc时区的时间
+    d2 = datetime.datetime.utcfromtimestamp(now)
+
+    print d
+    print d2
+
+    #将d1 d2加上自己的时区
+    d_cn = tz_cn.localize(d)
+    d_utc = tz_utc.localize(d2)
+
+    print d_cn
+    print d_utc
+
+    #转换时区
+    d_utc2 = d_cn.astimezone(tz_utc)
+    print 'd_utc2', d_utc2
+
+    #转换为unix timestamp
+    print calendar.timegm(d_cn.utctimetuple())
+    print calendar.timegm(d_utc.utctimetuple())
+
+    print calendar.timegm(d_cn.timetuple())
+    print calendar.timegm(d_utc.timetuple())
+
+
 
 if __name__ == '__main__':
     # show_the_last_10_day()
-    test2()
+    test3()
