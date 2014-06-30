@@ -85,7 +85,14 @@ def test3():
     print calendar.timegm(d_utc.timetuple())
 
 
+def tz_test():
+    u = u'America/Los_Angeles'
+    s = 'America/Los_Angeles'
+    print pytz.timezone(u)
+    print pytz.timezone(s)
+
 
 if __name__ == '__main__':
     # show_the_last_10_day()
-    test3()
+    # test3()
+    tz_test()
