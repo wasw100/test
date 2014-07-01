@@ -32,7 +32,18 @@ def glob_test():
     print glob.glob(s)
 
 
+def real_path_test():
+    """
+    alias path to real path
+    :return:
+    """
+    alias_path = '/Users/w3/data/github'
+    print os.path.realpath(alias_path)
+
+
+
 if __name__ == '__main__':
     # test()
     # os_walk_test()
-    glob_test()
+    # glob_test()
+    real_path_test()
