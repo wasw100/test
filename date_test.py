@@ -85,6 +85,21 @@ def test3():
     print calendar.timegm(d_utc.timetuple())
 
 
+def test4():
+    """
+    找到洛杉矶时区 2014年 7月 3日 0点的unix_timestamp, 正确答案是: 1404370800
+    :return:
+    """
+    tz_los = pytz.timezone('America/Los_Angeles')
+    #没有时区的时间
+    d = datetime.datetime(2014, 7, 3)
+    #将时间加上时区
+    d_los = tz_los.localize(d)
+    print d_los
+    #unix_timestamp
+    print calendar.timegm(d_los.utctimetuple())
+
+
 def tz_test():
     u = u'America/Los_Angeles'
     s = 'America/Los_Angeles'
@@ -94,5 +109,5 @@ def tz_test():
 
 if __name__ == '__main__':
     # show_the_last_10_day()
-    # test3()
-    tz_test()
+    test4()
+    # tz_test()
