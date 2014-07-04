@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+"""
+test rm exist or not exist key from dict
+"""
 
 
 def delete_key1():
