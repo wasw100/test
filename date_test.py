@@ -91,6 +91,7 @@ def test4():
     :return:
     """
     tz_los = pytz.timezone('America/Los_Angeles')
+    # tz_los = pytz.timezone('Etc/GMT+7')
     #没有时区的时间
     d = datetime.datetime(2014, 7, 3)
     #将时间加上时区
@@ -98,6 +99,30 @@ def test4():
     print d_los
     #unix_timestamp
     print calendar.timegm(d_los.utctimetuple())
+
+
+def test5():
+    """
+    将时间转化到东12区的0点
+    -7区 7.5 全天 1404543600
+    +8区 7.5 全天 1404489600
+    :return:
+    """
+    # t = 1404543600
+    t = 1404489600
+    # tz_12 = pytz.timezone('Etc/GMT-13')
+    tz_utc = pytz.timezone('Etc/GMT-12')
+    #全天事件所在的日期
+    d = datetime.datetime.fromtimestamp(t, tz=tz_utc)
+    print d
+    # d2 = tz_utc.localize(d)
+    # print d2
+    # print d2.day
+    # d3 = d2.astimezone(tz_utc)
+    # print "d3", d3
+    # t3 = calendar.timegm(d3.utctimetuple())
+    # print datetime.datetime.fromtimestamp(t3)
+    #1404327600 1404324000
 
 
 def tz_test():
@@ -109,5 +134,5 @@ def tz_test():
 
 if __name__ == '__main__':
     # show_the_last_10_day()
-    test4()
+    test5()
     # tz_test()
