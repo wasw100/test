@@ -108,13 +108,22 @@ def test5():
     +8区 7.5 全天 1404489600
     :return:
     """
-    # t = 1404543600
-    t = 1404489600
-    # tz_12 = pytz.timezone('Etc/GMT-13')
-    tz_utc = pytz.timezone('Etc/GMT-12')
+    t = 1404543600
+    # t = 1404489600
+    tz_12 = pytz.timezone('Etc/GMT-12')
+    tz_utc = pytz.timezone('UTC')
     #全天事件所在的日期
-    d = datetime.datetime.fromtimestamp(t, tz=tz_utc)
+    d = datetime.datetime.fromtimestamp(t, tz=tz_12)
     print d
+
+    #timestamp
+    d2 = datetime.datetime(d.year, d.month, d.day)
+    print d2
+    d3 = tz_12.localize(d2)
+    #东12区 0 点的unix_timestamp
+    print calendar.timegm(d3.utctimetuple())
+
+
     # d2 = tz_utc.localize(d)
     # print d2
     # print d2.day
