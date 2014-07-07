@@ -16,6 +16,13 @@ def set_test():
     print s
 
 
-if __name__ == '__main__':
-    set_test()
+def check_str():
+    u = u'abc'
+    s = 'abc'
+    print isinstance(u, str)
+    print isinstance(s, str)
 
+
+if __name__ == '__main__':
+    # set_test()
+    check_str()
