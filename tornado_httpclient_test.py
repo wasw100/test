@@ -50,7 +50,9 @@ def callback(response):
 def test4():
     request = HTTPRequest('http://www.163.com', proxy_host='http://127.0.0.1', proxy_port=8888)
     for i in range(10):
-        AsyncHTTPClient().fetch(request, callback=callback)
+        client = AsyncHTTPClient()
+        print client._free_list #空闲连接
+        client.fetch(request, callback=callback)
 
 if __name__ == '__main__':
     test4()
