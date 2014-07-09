@@ -59,6 +59,14 @@ def find_all_test():
     print ds2
 
 
+def find_all_test2():
+    s = 'a123b456c'
+    ds = re.finditer('\d+', s)
+    print ds
+    for m in ds:
+        print m.group()
+
+
 def re_sub_test():
     def replace(m):
         return '%s"%s":' % m.groups()
@@ -70,5 +78,5 @@ def re_sub_test():
 if __name__ == '__main__':
     # test()
     # test2()
-    # find_all_test()
-    re_sub_test()
+    find_all_test2()
+    # re_sub_test()
