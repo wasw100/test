@@ -40,5 +40,11 @@ def delete_key4():
     d.pop('a', None)
     print d
 
+def update_test():
+    d = dict()
+    d.update(a=1, b=2)
+    print d
+
 if __name__ == '__main__':
-    delete_key4()
+    # delete_key4()
+    update_test()
