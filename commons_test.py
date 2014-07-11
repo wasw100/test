@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import  os.path
+import  os.path, random
 
 def set_test():
     s = set('abc')
@@ -38,7 +38,13 @@ def path_join_test():
     print join_path2
 
 
+def random_test():
+    for i in range(20):
+        #生成 1 2或者3的随机数
+        print random.randint(1, 3)
+
+
 if __name__ == '__main__':
     # set_test()
     # check_str()
-    path_join_test()
+    random_test()
