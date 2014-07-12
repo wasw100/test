@@ -39,9 +39,14 @@ def path_join_test():
 
 
 def random_test():
+    r_d = dict()
     for i in range(20):
         #生成 1 2或者3的随机数
-        print random.randint(1, 3)
+        r = random.randint(1, 3)
+        count = r_d.setdefault(r, 0)
+        r_d[r] = count + 1
+    print r_d
+
 
 
 if __name__ == '__main__':
