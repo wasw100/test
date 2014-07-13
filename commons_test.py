@@ -48,8 +48,13 @@ def random_test():
     print r_d
 
 
+def random_test2():
+    print random.randrange(100)
+    print random.randrange(100, 200, 2)
+    print random.choice(range(100, 200, 2))
+
 
 if __name__ == '__main__':
     # set_test()
     # check_str()
-    random_test()
+    random_test2()
