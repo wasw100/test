@@ -141,7 +141,15 @@ def tz_test():
     print pytz.timezone(s)
 
 
+def test6():
+    t = time.time()
+    print time.gmtime(t) #utc time
+    print time.localtime(t) #local utc+8
+
+    #strunt time to epoch
+
+
 if __name__ == '__main__':
     # show_the_last_10_day()
-    test5()
+    test6()
     # tz_test()
