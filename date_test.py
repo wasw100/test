@@ -29,6 +29,18 @@ def show_the_last_10_day():
         print d.strftime('%Y%m%d')
 
 
+def get_this_week_start(tzinfo=None):
+    """ 返回一周的开始时间"""
+    now_d = datetime.datetime.now().replace(hour=0, minute=0, second=0,
+                                            microsecond=0)
+    this_week_start_d = now_d - datetime.timedelta(days=now_d.weekday())
+    print('本周开始日期(无时区): {}'.format(this_week_start_d))
+    if tzinfo:
+        this_week_start_d = tzinfo.localize(this_week_start_d)
+        print('本周开始日期(带时区): {}'.format(this_week_start_d))
+    return calendar.timegm(this_week_start_d.utctimetuple())
+
+
 def test1():
     tz = pytz.timezone('Etc/GMT-12')
     # t1 = get_day_start_time(time.time(), tz)
@@ -82,7 +94,7 @@ def test3():
 
 
 def test4():
-    """ 找到洛杉矶时区 2014年 7月 3日 0点的unix_timestamp, 正确答案是: 1404370800
+    """ 找到洛杉矶时区2014年7月3日0点的unix_timestamp, 正确答案是: 1404370800
 
     d_los = datetime.datetime(2014, 7, 4, tzinfo=tz_los)
     这种方法得到2014-07-04 00:00:00-07:53
@@ -101,5 +113,6 @@ def test4():
 
 if __name__ == '__main__':
     # show_the_last_10_day()
-    test4()
+    # test4()
     # tz_test()
+    print get_this_week_start()
