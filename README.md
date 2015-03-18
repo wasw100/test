@@ -1,7 +1,7 @@
 test
 ====
 
-## title
+## t1
 
     def hello():
         print 'hello'
@@ -26,3 +26,9 @@ test
 
     def hello():
         print 'hello'
+
+- 代码4
+
+<!-- language: bash -->
+
+    echo "Hello"
