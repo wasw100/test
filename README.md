@@ -22,17 +22,23 @@ test
 
 - 代码3
 
-<!-- language: python -->
+<!-- language: lang-python -->
 
     def hello():
         print 'hello'
 
 - 代码4
 
-<!-- language: bash -->
+<!-- language: lang-bash -->
 
     echo "Hello"
 
 - 代码5, 通过8个空格分割
         
     this is code
+
+- 代码6
+
+    ```
+    three ...
+    ```
